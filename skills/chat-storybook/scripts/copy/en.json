@@ -40,6 +40,7 @@
   "ask": "First: ask your friends if it’s OK.",
   "credit": "Written, drawn, animated & scored by Claude",
   "code": ["Every frame is code, made in Claude Code.", "No paper was cut making this film."],
+  "link": "github.com/roy-aniccai/chat-storybook",
   "e7": null,
 
   "variants": {

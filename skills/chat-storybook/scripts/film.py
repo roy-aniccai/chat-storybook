@@ -286,6 +286,7 @@ def build_copy(pack, story):
         out[k] = c.plain(pack[k])
     for k in PLAIN_LISTS:
         out[k] = [c.plain(s) for s in pack[k]]
+    out["link"] = str(pack.get("link") or "")  # optional: where to get the skill
     return out
 
 

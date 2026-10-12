@@ -1,7 +1,7 @@
 {
   "name": "chat-storybook",
   "description": "Turn a WhatsApp chat export into a 66-second paper-cut storybook film, in Hebrew or English.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": { "name": "Aniccai" },
   "homepage": "https://github.com/roy-aniccai/chat-storybook",
   "repository": "https://github.com/roy-aniccai/chat-storybook",

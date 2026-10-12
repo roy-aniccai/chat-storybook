@@ -721,6 +721,8 @@ function sCta(){
   if(kc>=0){
     strip(CP.credit,540,1246,{k:kc,size:59,col:INK,ink:'#fff3d6',seed:73,maxW:900});
     if(kc>=4){g.save();g.direction=DIR;g.textAlign='center';g.fillStyle=INK;fit(CP.code[0],42,700,880);g.fillText(CP.code[0],540,1372);if(kc>=8){fit(CP.code[1],42,700,880);g.fillText(CP.code[1],540,1442)}g.restore()}
+    // the address of the skill, always left to right
+    if(kc>=14&&CP.link){g.save();g.direction='ltr';g.textAlign='center';g.fillStyle=TEAL;fit(CP.link,36,800,860);g.fillText(CP.link,540,1508);g.restore()}
   }
   subtitle(E7);
 }

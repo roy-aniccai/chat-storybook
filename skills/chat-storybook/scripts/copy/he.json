@@ -43,6 +43,7 @@
   "ask": "רגע לפני: מבקשים רשות מהחברים.",
   "credit": "כתב, אייר, הנפיש והלחין: Claude",
   "code": ["הכול נכתב בקוד, ב-Claude Code.", "שום נייר לא נגזר בהכנת הסרטון."],
+  "link": "github.com/roy-aniccai/chat-storybook",
   "e7": ["Your group chat has a story too.", "1. Export the chat from WhatsApp.", "2. Give the file to Claude.", "3. Ask: “turn this into a story.”", "First, ask your friends if it’s OK.", "Written, drawn, animated and scored by Claude.", "Every frame is code. No paper was cut."],
 
   "variants": {

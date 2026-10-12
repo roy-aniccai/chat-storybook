@@ -75,7 +75,7 @@ Both scripts list their flags with `--help`.
 
 ## Make it yours
 
-The film says on its cover that Claude wrote and drew it, and its last ten seconds are a card that invites other people to try this with their own chat. `--no-outro` ends the film at 0:55, just before the page turns to that card. The cover line is `byline` in the copy pack.
+The film says on its cover that Claude wrote and drew it, and its last ten seconds are a card that invites other people to try this with their own chat. `--no-outro` ends the film at 0:55, just before the page turns to that card. The cover line is `byline` in the copy pack. The address under the credits is `link`; set it to `""` to leave it out.
 
 The wording lives in `scripts/copy/en.json` and `scripts/copy/he.json`. Copy one, edit the lines, and pass it with `--copy my.json`. Keep the same number of lines in each caption block.
 
