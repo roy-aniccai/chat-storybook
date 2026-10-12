@@ -1,0 +1,67 @@
+{
+  "_": "English captions, no subtitle strip. {x} = a number on a paper chip, [x] = plain text. See README for the variables. Copy this file to make a pack in another language.",
+  "lang": "en",
+  "dir": "ltr",
+  "hyphenPrefix": false,
+  "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+  "nWord": {"2": "two", "3": "three", "4": "four", "5": "five", "6": "six", "7": "seven"},
+  "dayparts": ["at night", "at night", "at night", "at night", "in the morning", "in the morning", "in the morning", "in the morning", "in the morning", "in the morning", "in the morning", "in the morning", "in the afternoon", "in the afternoon", "in the afternoon", "in the afternoon", "in the afternoon", "in the evening", "in the evening", "in the evening", "in the evening", "at night", "at night", "at night"],
+  "span": {"months": "{spanMonths} months", "one": "a year", "many": "{years} years"},
+
+  "coverSub": "A completely true story",
+  "byline": "Written & drawn by Claude",
+  "c0": ["I gave Claude [span]", "of our group chat.", "It gave me a storybook."],
+  "e0": null,
+
+  "c1": ["Once there were [nWord] friends,", "and a chat that never ends.", "{total} messages, pile on pile,", "[top] on top, with a smile."],
+  "e1": null,
+
+  "c2": ["At {quietAmpm} there’s barely a peep.", "At {peakAmpm} nobody’s asleep."],
+  "e2": null,
+  "hourTag": "{peakHn} messages",
+
+  "c3": ["[Span], hill after hill,", "and the story’s going still.", "One page is torn: {gapDays} days are gone,", "but the friends carried on.", "[peakMonth] had the most to say:", "{peakMn} messages. A record to this day."],
+  "e3": null,
+
+  "c4": ["Who answers whom?", "[pairA] & [pairB]: the thickest thread,", "{pairN} replies, and more ahead."],
+  "e4": null,
+
+  "c5": ["{wordsK} thousand words in all:", "that’s {books} thick books, wall to wall.", "{laughs} times someone typed “[laughWord]”,", "friends are funnier, by far."],
+  "e5": null,
+  "wordsTag": "{words} words",
+  "laughBig": "[laughWord]",
+  "laughSmall": "[laughBit]",
+
+  "c6": ["The story stops here, just for now:", "someone’s typing… and how."],
+  "e6": null,
+
+  "ctaHead": "Your group has a story too.",
+  "steps": ["Export the chat from WhatsApp", "Give the file to Claude", "Ask: “turn this into a story”"],
+  "ask": "First: ask your friends if it’s OK.",
+  "credit": "Written, drawn, animated & scored by Claude",
+  "code": ["Every frame is code, made in Claude Code.", "No paper was cut making this film."],
+  "e7": null,
+
+  "variants": {
+    "duo": {
+      "c0.1": "of one long chat.",
+      "c4.1": "Between [pairA] and [pairB], one long thread:",
+      "ctaHead": "Your chat has a story too."
+    },
+    "fewbooks": {
+      "c5.1": "that’s a book of {pages} pages, not small."
+    },
+    "fewwords": {
+      "c5.0": "{words} words in all:"
+    },
+    "bigwords": {
+      "c5.0": "{wordsM} million words in all:"
+    },
+    "nolaughs": {
+      "c5.2": "And tucked between the lines, a smile:",
+      "c5.3": "friends make every word worthwhile.",
+      "laughBig": "!!!",
+      "laughSmall": "!"
+    }
+  }
+}

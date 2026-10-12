@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "chat-storybook",
+  "description": "A Claude Code skill that turns a WhatsApp chat export into a paper-cut storybook film.",
+  "owner": { "name": "Aniccai" },
+  "plugins": [
+    {
+      "name": "chat-storybook",
+      "description": "Turn a WhatsApp chat export into a 66-second paper-cut storybook film, in Hebrew or English.",
+      "source": "./",
+      "category": "creative",
+      "homepage": "https://github.com/roy-aniccai/chat-storybook"
+    }
+  ]
+}

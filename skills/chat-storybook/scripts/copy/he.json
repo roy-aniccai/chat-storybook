@@ -1,0 +1,80 @@
+{
+  "_": "Hebrew captions with an English subtitle strip. {x} = a number on a paper chip, [x] = plain text. See README for the variables.",
+  "lang": "he",
+  "dir": "rtl",
+  "hyphenPrefix": true,
+  "months": ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"],
+  "monthsEn": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+  "nWord": {"2": "שני", "3": "שלושה", "4": "ארבעה", "5": "חמישה", "6": "שישה", "7": "שבעה"},
+  "nWordEn": {"2": "two", "3": "three", "4": "four", "5": "five", "6": "six", "7": "seven"},
+  "dayparts": ["בלילה", "בלילה", "בלילה", "בלילה", "בבוקר", "בבוקר", "בבוקר", "בבוקר", "בבוקר", "בבוקר", "בבוקר", "בבוקר", "בצהריים", "בצהריים", "בצהריים", "בצהריים", "אחר הצהריים", "אחר הצהריים", "בערב", "בערב", "בערב", "בלילה", "בלילה", "בלילה"],
+  "span": {"months": "{spanMonths} חודשים", "one": "שנה", "two": "שנתיים", "many": "{years} שנים"},
+  "spanEn": {"months": "{spanMonths} months", "one": "a year", "many": "{years} years"},
+
+  "coverSub": "סיפור אמיתי לגמרי",
+  "byline": "כתב ואייר: Claude",
+  "c0": ["נתתי ל-Claude [span]", "של ווטסאפ עם החברים.", "קיבלתי בחזרה ספר ילדים."],
+  "e0": ["I gave Claude [spanEn] of our group chat.", "I got back a children’s book."],
+
+  "c1": ["היו היו פעם [nWord] חברים,", "וקבוצה אחת, מלאה בדיבורים.", "{total} הודעות בערימה,", "ו[top]? [top] תמיד צעד קדימה."],
+  "e1": ["Once upon a time there were [nWordEn] friends,", "and one group chat that never stopped talking.", "[total] messages in one big pile.", "And [top] was always one step ahead."],
+
+  "c2": ["ב-{quietH12} [quietPart] כמעט אין קול,", "ב-{peakClock} כולם מדברים על הכול."],
+  "e2": ["At [quietAmpm], barely a sound.", "At [peakClock], everyone talks about everything."],
+  "hourTag": "{peakHn} הודעות",
+
+  "c3": ["[span], הר אחרי הר,", "והסיפור הזה עוד לא נגמר.", "דף אחד נקרע: {gapDays} ימים חסרים,", "אבל גם בלי הדף, הם נשארו חברים.", "[peakMonth]: היו המון עניינים,", "{peakMn} הודעות בחודש אחד. שיא כל הזמנים."],
+  "e3": ["[SpanEn], mountain after mountain,", "and this story isn’t over yet.", "One page was torn out: [gapDays] days are missing.", "Even without that page, they stayed friends.", "[peakMonthEn]: so much going on,", "[peakMn] messages in one month. The all-time record."],
+
+  "c4": ["מי עונה למי?", "בין [pairA] ל[pairB] החוט הכי עבה:", "{pairN} תשובות, והנה עוד אחת באה."],
+  "e4": ["Who answers whom?", "The thickest thread runs between [pairA] and [pairB]:", "[pairN] replies, and here comes one more."],
+
+  "c5": ["{wordsK} אלף מילים הם כתבו בסך הכול.", "זה {books} ספרים עבים, בגדול.", "{laughs} פעמים מישהו כתב ״[laughWord]״,", "כי צחוק עם חברים זה הכי משמח."],
+  "e5": ["[wordsK] thousand words in total.", "That’s [books] thick books, give or take.", "[laughs] times, somebody typed “[laughWordEn]”,", "because laughing with friends is the best part."],
+  "wordsTag": "{words} מילים",
+  "laughBig": "[laughWord]",
+  "laughSmall": "[laughBit]",
+
+  "c6": ["וכאן הסיפור נעצר, אבל רק בינתיים:", "מישהו שם כבר מקליד, בשתי ידיים."],
+  "e6": ["The story stops here, but only for now:", "somebody is already typing, with both hands."],
+
+  "ctaHead": "גם לקבוצה שלכם יש סיפור.",
+  "steps": ["מייצאים את הצ׳אט מווטסאפ", "מעלים את הקובץ ל-Claude", "מבקשים: ״תהפוך את זה לסיפור״"],
+  "ask": "רגע לפני: מבקשים רשות מהחברים.",
+  "credit": "כתב, אייר, הנפיש והלחין: Claude",
+  "code": ["הכול נכתב בקוד, ב-Claude Code.", "שום נייר לא נגזר בהכנת הסרטון."],
+  "e7": ["Your group chat has a story too.", "1. Export the chat from WhatsApp.", "2. Give the file to Claude.", "3. Ask: “turn this into a story.”", "First, ask your friends if it’s OK.", "Written, drawn, animated and scored by Claude.", "Every frame is code. No paper was cut."],
+
+  "variants": {
+    "duo": {
+      "c0.1": "של שיחת ווטסאפ אחת.",
+      "e0.0": "I gave Claude [spanEn] of one chat.",
+      "c1.1": "ושיחה אחת, מלאה בדיבורים.",
+      "e1.1": "and one chat that never stopped talking.",
+      "c2.1": "ב-{peakClock} מדברים שם על הכול.",
+      "e2.1": "At [peakClock], they talk about everything.",
+      "c4.1": "בין [pairA] ל[pairB] נמתח חוט אחד:",
+      "e4.1": "One thread runs between [pairA] and [pairB]:",
+      "ctaHead": "גם לשיחה שלכם יש סיפור.",
+      "e7.0": "Your chat has a story too."
+    },
+    "fewbooks": {
+      "c5.1": "זה ספר של {pages} עמודים, בגדול.",
+      "e5.1": "That’s a [pages]-page book, give or take."
+    },
+    "fewwords": {
+      "c5.0": "{words} מילים הם כתבו בסך הכול.",
+      "e5.0": "[words] words in total."
+    },
+    "bigwords": {
+      "c5.0": "{wordsM} מיליון מילים הם כתבו בסך הכול.",
+      "e5.0": "[wordsM] million words in total."
+    },
+    "nolaughs": {
+      "c5.2": "ובין כל המילים, חיוך אחד נשלח,",
+      "e5.2": "And between all the words, one smile got sent,",
+      "laughBig": "!!!",
+      "laughSmall": "!"
+    }
+  }
+}

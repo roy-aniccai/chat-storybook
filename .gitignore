@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+.ruff_cache/
+*.work/
+work/
+*.mp4
+*.wav
+story.json
+*-preview.jpg
+!docs/*.jpg
